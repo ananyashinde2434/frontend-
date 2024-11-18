@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(160, 160, 59);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.item{
+    background-color: red;
+    padding: 20px ;
+    color: #fff;
+    font-size: 35px;
+    margin: 10px;
+    
+
+}
+.items-3{
+    height: 150px;
+
+}
+
+
+
+

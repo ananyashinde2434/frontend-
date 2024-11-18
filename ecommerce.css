@@ -1,0 +1,155 @@
+*{ 
+    margin:0;
+    padding:0;
+    background-color: #2e3140;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(model.jpg);
+}
+.textbox{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: right;
+    
+}
+.textbox h1{
+    font-size: 62px;
+}
+.nav-links{
+    flex:1;
+    text-align: left;
+    background-color: rgb(1, 9, 15);
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+
+}
+.nav-links ul li a{
+    color: rgb(207, 206, 206);
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: rgb(195, 181, 181) ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li :hover::after{
+    width:100%;
+} 
+.container{
+    min-height:100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width:1535px;
+
+}
+.image1{
+    width: 1535px;
+}
+.section1{
+   
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.heading{
+    font-size: 30px;
+    color: #fff;
+    font-family: Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    
+    
+
+}
+.image2{
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+    right:100px;
+    top: 20px;   
+
+}
+
+
+
+
+.para{
+    font-size: 20px;
+    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+    left: 50px;
+    text-align: justify;
+}
+
+
+.section2{
+  
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    margin-top: 200px;
+    position: relative;
+
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Suisse, Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.image3{
+width: 200px;
+border-radius: 100px;
+
+
+}
+.footer{
+    he
+}
+
+
+
